@@ -25,9 +25,9 @@ def main():
   if os.path.exists(output_path):
     os.remove(output_path)
 
-  with open(output_path, 'w', newline='\r\n' ,encoding='euc-kr') as output:
+  with open(output_path, 'w', newline='' ,encoding='euc-kr') as output:
     writer = csv.writer(output)
-    writer.writerow(['', '과세여부', '조회일'])
+    writer.writerow(['사업자번호', '과세여부', '조회일'])
 
     with open(input_path, encoding='euc-kr') as input:
       next(input)

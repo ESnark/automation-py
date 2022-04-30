@@ -17,3 +17,7 @@
 000-00-00000,,
 000-00-00000,,
 ```
+
+# Build (Windows)
+1. `.venv\Scripts\activate.bat`
+2. pyinstaller --onefile main.py
