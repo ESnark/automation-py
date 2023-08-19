@@ -19,5 +19,5 @@
 ```
 
 # Build (Windows)
-1. `.venv\Scripts\activate.bat`
+1. poetry shell
 2. pyinstaller --onefile main.py
