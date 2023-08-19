@@ -18,7 +18,7 @@
 000-00-00000,,
 ```
 
-## websquare mode (기본모드)
+## websquare mode (기본)
 [홈텍스 웹사이트](https://teht.hometax.go.kr/websquare/websquare.html?w2xPath=/ui/ab/a/a/UTEABAAA13.xml)를 브라우저에서 열고 사업자등록번호를 하나씩 조회합니다. 느리지만 사업자등록번호만 준비하면 바로 사용할 수 있습니다.
 
 ## OpenAPI mode
